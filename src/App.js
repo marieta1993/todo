@@ -3,7 +3,7 @@ import Article from './Article';
 import Filter from './Filter';
 const divStyle = {
     color: 'white',
-    backgroundColor:'#cc0c0c'
+    backgroundColor:'#0f0f0f'
 };
 
 
