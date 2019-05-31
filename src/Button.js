@@ -1,7 +1,9 @@
 import  React from 'react';
 const Button = (props) => {
     return (
-        <button className={'btn-secondary'} >{props.name}</button>
+        <div className='form-group col-sm-3'>
+            <button className='btn btn-outline-success form-control' type="button">{props.name}</button>
+        </div>
     )
 };
 export default  Button;

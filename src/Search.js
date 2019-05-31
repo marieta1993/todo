@@ -1,7 +1,9 @@
 import React from 'react';
 const Search = () => {
     return (
-      <input type='text' placeholder={'Search...'}/>
+        <div className="form-group col-sm-12">
+            <input type='text' placeholder={'Search...'} className='form-control'/>
+        </div>
     )
 };
 export  default  Search;

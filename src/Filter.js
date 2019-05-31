@@ -5,9 +5,11 @@ const Filter = () => {
     return (
         <div>
             <Search/>
-            <Button name={"Hot"}/>
-            <Button name={"ST"}/>
-            <Button name={"All"}/>
+            <div className='d-flex justify-content-between'>
+                <Button name={"Hot"}/>
+                <Button name={"ST"}/>
+                <Button name={"All"}/>
+            </div>
 
         </div>
     )
