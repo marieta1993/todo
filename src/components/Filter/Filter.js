@@ -1,11 +1,12 @@
 import React from 'react';
-import  Search from './Search';
-import  Button from './Button';
+import  Search from '../Search/Search';
+import  Button from '../Button/Button';
+import  './Filter.css';
 const Filter = () => {
     return (
-        <div>
+        <div className='d-flex justify-content-between' >
             <Search/>
-            <div className='d-flex justify-content-between'>
+            <div className='d-flex justify-content-between col-sm-6'>
                 <Button name={"Hot"}/>
                 <Button name={"ST"}/>
                 <Button name={"All"}/>
